@@ -1,0 +1,10 @@
+tensorflow
+tensorflow_hub
+matplotlib
+six
+numpy
+Pillow
+absl-py
+pathlib
+IPython
+numpy
