@@ -8,3 +8,5 @@ absl-py
 pathlib
 IPython
 numpy
+pandas
+tqdm
