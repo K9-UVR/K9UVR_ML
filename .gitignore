@@ -148,7 +148,7 @@ venv.bak/
 pip-selfcheck.json
 
 ### vscode ###
-.vscode/settings.json
+.vscode
 
 # End of https://www.gitignore.io/api/macos,python
 

@@ -10,3 +10,4 @@ IPython
 numpy
 pandas
 tqdm
+keras-ocr
