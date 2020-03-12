@@ -2,9 +2,9 @@
 Usage:
   # From tensorflow/models/
   # Create train data:
-  python generate_tfrecords.py --csv_input=data/train_labels.csv  --output_path=train.record
+  python generate_tfrecords.py --csv_input=data/train_labels.csv  --output_path=data/records/train.record --image_dir=/Datasets/
   # Create test data:
-  python generate_tfrecords.py --csv_input=data/test_labels.csv  --output_path=test.record
+  python generate_tfrecords.py --csv_input=data/test_labels.csv  --output_path=data/records/test.record --image_dir=/Datasets/
 """
 
 from __future__ import division
@@ -31,7 +31,6 @@ flags.DEFINE_string('image_dir', None, 'Path to images')
 flags.mark_flag_as_required("csv_input")
 flags.mark_flag_as_required("output_path")
 flags.mark_flag_as_required("image_dir")
-
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):

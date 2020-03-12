@@ -1,9 +1,8 @@
-tensorflow
-tensorflow_hub
+tensorflow==1.15
 matplotlib
 six
 numpy
-Pillow
+pillow
 absl-py
 pathlib
 IPython
@@ -11,3 +10,8 @@ numpy
 pandas
 tqdm
 keras-ocr
+pycocotools
+Cython
+contextlib2
+lxml
+jupyter

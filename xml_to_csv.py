@@ -4,7 +4,6 @@ import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
 
-
 FLAGS = flags.FLAGS
 flags.DEFINE_string("path_to_imgs", os.getcwd(), "Path to image files.")
 flags.DEFINE_string("output_name", "converted_labels.csv",
