@@ -175,15 +175,15 @@ train_config: {
   }
   max_number_of_boxes: 20
   unpad_groundtruth_tensors: false
-  fine_tune_checkpoint: "gs://k9-license-detector-bucket/data/model.ckpt"
+  fine_tune_checkpoint: "gs://PATH_TO_YOUR_GCS_BUCKET/data/model.ckpt"
   fine_tune_checkpoint_type: "detection"
 }
 
 train_input_reader: {
   tf_record_input_reader {
-    input_path: "gs://k9-license-detector-bucket/data/train.record"
+    input_path: "gs://PATH_TO_YOUR_GCS_BUCKET/data/train.record"
   }
-  label_map_path: "gs://k9-license-detector-bucket/data/k9_detection_label_map.pbtxt"
+  label_map_path: "gs://PATH_TO_YOUR_GCS_BUCKET/data/k9_detection_label_map.pbtxt"
 }
 
 eval_config: {
@@ -192,9 +192,9 @@ eval_config: {
 
 eval_input_reader: {
   tf_record_input_reader {
-    input_path: "gs://k9-license-detector-bucket/data/val.record"
+    input_path: "gs://PATH_TO_YOUR_GCS_BUCKET/data/val.record"
   }
-  label_map_path: "gs://k9-license-detector-bucket/data/k9_detection_label_map.pbtxt"
+  label_map_path: "gs://PATH_TO_YOUR_GCS_BUCKET/data/k9_detection_label_map.pbtxt"
   shuffle: false
   num_readers: 1
 }

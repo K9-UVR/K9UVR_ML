@@ -9,9 +9,9 @@ flags.DEFINE_string("path_to_imgs", os.getcwd(), "Path to image files.")
 flags.DEFINE_string("output_name", "converted_labels.csv",
                     "Name of converted filename.")
 
-# Required flag.
-# flags.mark_flag_as_required("output_name")
-
+#Required flag.
+flags.mark_flag_as_required("path_to_imgs")
+flags.mark_flag_as_required("output_name")
 
 def xml_to_csv(path):
     xml_list = []
