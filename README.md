@@ -9,6 +9,8 @@ The main goal of this project is to create mechanism for recognizing vehicles li
 
 These instructions will get you a copy of the project up and running on your local machine.
 
+*Repository contains some sample files like base model and sample config files to help you create training data and train your model*
+
 ### Prerequisites
 - Python 3.4+ _(tensorflow does not support python 3.8 yet)_
 - Git - [instruction](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -336,6 +338,7 @@ Parts of this project depends on tensorflow code - see the [LICENSE](licenses/LI
 ## Acknowledgments
 
 * Uses parts of code from tensorflow repo and [this gist](https://gist.github.com/wbrickner/efedf8ab0ce1705de1372c1e2f49dd98)
+* Instructions on how to train model rely on [this article](https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193)
 * **Using tensorflow 2.1 and 1.15 simultaneously in some cases**
 * A bunch of typos included :laughing:
 
