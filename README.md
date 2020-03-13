@@ -328,7 +328,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Konrad Karimi** - *Initial work* - [KonradKarimi](https://github.com/KonradKarimi)
 * **Przemysław Tarnecki** - *Implementing on device detection* - [Isaac-mtg](https://github.com/Isaac-mtg)
-* **Mariusz Frelke** - *Data Preparation*
+* **Mariusz Frelke** - *Data Preparation* - [mfrelke](https://github.com/mfrelke)
 
 ## License
 
